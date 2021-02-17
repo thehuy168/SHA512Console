@@ -4,17 +4,17 @@ using System.Text;
 
 
 
-namespace ConsoleApp1
+namespace SHA512Console
 {
 
-    public static class SHAencryptor
+    public static class SHA512Encryptor
     {
        
         public static void Main()
         { 
             string a;
             Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine("Nhập ký tự ");
+            Console.WriteLine("Input String :");
             a = Console.ReadLine();
             Hash(a);
         }
